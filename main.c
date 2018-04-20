@@ -1,7 +1,13 @@
 #include <stdio.h>
 void fahrToCelsius(void);
 int main() {
-    fahrToCelsius();
+    int c;
+    c = getchar();
+    while (c != EOF){
+        putchar(c);
+        c = getchar();
+    }
+//    fahrToCelsius();
     return 0;
 }
 
